@@ -1,0 +1,35 @@
+{
+  "name": "trackiq-amazon-daily-snacks-email",
+  "title": "TrackIQ: Amazon Daily Snacks Email",
+  "version": "1.1.1",
+  "updated": "2026-09-16",
+  "summary": "A three-minute editorial daily email for an Amazon account \u2014 one lead story with a takeaway, quick bites, a scoreboard, charts and a to-do list.",
+  "changelog": "Replaces the bundled sample data with a fictional demo brand shared with the weekly report.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_account_overview",
+      "get_campaigns",
+      "get_product_performance",
+      "get_bsr"
+    ],
+    "filesystem": false,
+    "network": false
+  },
+  "fallback": "Works from figures pasted into the chat when the TrackIQ MCP is not connected.",
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-daily-snacks-email",
+  "license": "MIT",
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. file needs a filesystem, n8n needs network, slack and email need their tool connected. Outward sends confirm first."
+  }
+}
