@@ -1,6 +1,7 @@
 {
   "name": "trackiq-amazon-daily-snacks-email",
   "title": "TrackIQ: Amazon Daily Snacks Email",
+  "category": "operations",
   "version": "1.1.1",
   "updated": "2026-09-16",
   "summary": "A three-minute editorial daily email for an Amazon account \u2014 one lead story with a takeaway, quick bites, a scoreboard, charts and a to-do list.",
