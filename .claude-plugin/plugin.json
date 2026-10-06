@@ -6,5 +6,6 @@
   "homepage": "https://trackiq.com/skills/trackiq-amazon-daily-snacks-email",
   "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-daily-snacks-email",
   "license": "MIT",
-  "keywords": ["amazon", "amazon-seller", "amazon-ads", "advertising", "reporting", "ppc", "dsp", "acos", "tacos", "email", "claude-skill", "agent-skills", "trackiq"]
+  "keywords": ["amazon", "amazon-seller", "amazon-ads", "advertising", "reporting", "ppc", "dsp", "acos", "tacos", "email", "claude-skill", "agent-skills", "trackiq"],
+  "skills": "."
 }
